@@ -7,6 +7,9 @@ This dataset is Non-strict Attentional Region Annotation (NARA) for a generic im
 NARA is non-strict annotation with a simple shape (an ellipse) to show region about where the annotator focused their attention when classifying categories.
 With simple operations, The location where human attended on recognition can be recorded and used to improve the accuracy of classification models.
 
+<img src="sample_images/blend_00001.png"
+ alt="Example of blended image">
+
 For details of the method, please refer to the following published papers.
 
 > Satoshi Arai, Shinichi Shirakawa, and Tomoharu Nagao,
@@ -58,6 +61,9 @@ An annotation map will be generated under the *maps* folder.
 ```python
 python draw_annotation_maps.py --input_name harvestingdb_nara.csv --output_dir maps
 ```
+
+<img src="sample_images/map_00001.png"
+ alt="Example of annotation map">
 
 ## Notes
 

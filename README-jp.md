@@ -6,6 +6,9 @@
 
 NARA は単純な形状（楕円）のマーカでカテゴリ分類の際にアノテーション作業者が何処に注目したかの情報を示したもので，単純な操作で人間の認識の根拠となる情報を記録し，これを用いることでクラス分類モデルの認識精度を向上させるものです．
 
+<img src="sample_images/blend_00001.png"
+ alt="Example of blended image">
+
 手法の詳細については以下の発表論文を参照してください．
 
 > 荒井 敏, 白川 真一, 長尾 智晴,
@@ -57,6 +60,9 @@ maps フォルダ以下にアノテーションマップが生成されます．
 ```python
 python draw_annotation_maps.py --input_name harvestingdb_nara.csv --output_dir maps
 ```
+
+<img src="sample_images/map_00001.png"
+ alt="Example of annotation map">
 
 ## 特記事項
 
